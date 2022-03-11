@@ -52,7 +52,7 @@ function displayWord(){
 
      //check if lost
      if(wrongLetters.length === figureParts.length){
-         finalMessage.innerText ="Unfortunetly you lost";
+         finalMessage.innerText ="Unfortunately you lost";
          popup.style.display="flex";
      }
 
